@@ -1,0 +1,14 @@
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\bin\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.deps.json
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\bin\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.dll
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\bin\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.pdb
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.csproj.AssemblyReference.cache
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Avalonia\resources
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.GeneratedMSBuildEditorConfig.editorconfig
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.AssemblyInfoInputs.cache
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.AssemblyInfo.cs
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Round.NET.AvaloniaApp.MQTTMangeView.csproj.CoreCompileInputs.cache
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Avalonia\Round.NET.AvaloniaApp.MQTTMangeView.dll
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\Avalonia\Round.NET.AvaloniaApp.MQTTMangeView.pdb
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\refint\Avalonia\Round.NET.AvaloniaApp.MQTTMangeView.dll
+D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\obj\Debug\net8.0\ref\Round.NET.AvaloniaApp.MQTTMangeView.dll

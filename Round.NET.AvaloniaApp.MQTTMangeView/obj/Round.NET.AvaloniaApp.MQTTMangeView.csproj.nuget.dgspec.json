@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\User File\\Desktop\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView.csproj": {}
+  },
+  "projects": {
+    "D:\\User File\\Desktop\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\User File\\Desktop\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView.csproj",
+        "projectName": "Round.NET.AvaloniaApp.MQTTMangeView",
+        "projectPath": "D:\\User File\\Desktop\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView.csproj",
+        "packagesPath": "C:\\Users\\ahadd\\.nuget\\packages\\",
+        "outputPath": "D:\\User File\\Desktop\\Round.NET.AvaloniaApp.MQTTMangeView\\Round.NET.AvaloniaApp.MQTTMangeView\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "D:\\Program Files\\VS\\VS_SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ahadd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.2.1, )",
+              "versionCentrallyManaged": true
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.3.2, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentAvaloniaUI": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "HeroIcons.Avalonia": {
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Avalonia": "11.2.1",
+            "Avalonia.Android": "11.2.1",
+            "Avalonia.Browser": "11.2.1",
+            "Avalonia.Desktop": "11.2.1",
+            "Avalonia.Diagnostics": "11.2.1",
+            "Avalonia.Fonts.Inter": "11.2.1",
+            "Avalonia.iOS": "11.2.1",
+            "Avalonia.Themes.Fluent": "11.2.1",
+            "CommunityToolkit.Mvvm": "8.3.2",
+            "FluentAvaloniaUI": "2.2.0",
+            "HeroIcons.Avalonia": "1.0.3",
+            "Xamarin.AndroidX.Core.SplashScreen": "1.0.1.1"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

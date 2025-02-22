@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/App.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/MainView.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/MainWindow.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddButton.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddImage.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddLabel.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Log.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Mange.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Setting.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/ViewPage.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/MainView.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+        <entry key="Round.NET.AvaloniaApp.MQTTMangeView/Views/Windows/MainWindow.axaml" value="Round.NET.AvaloniaApp.MQTTMangeView.Desktop/Round.NET.AvaloniaApp.MQTTMangeView.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

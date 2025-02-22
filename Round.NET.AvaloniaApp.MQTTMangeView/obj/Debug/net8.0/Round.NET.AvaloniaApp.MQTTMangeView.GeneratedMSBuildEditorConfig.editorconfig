@@ -1,0 +1,53 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Round.NET.AvaloniaApp.MQTTMangeView
+build_property.ProjectDir = D:\User File\Desktop\Round.NET.AvaloniaApp.MQTTMangeView\Round.NET.AvaloniaApp.MQTTMangeView\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddButton.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddImage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/AddControls/AddLabel.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/MainView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Log.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Mange.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/Setting.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Pages/Main/ViewPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[D:/User File/Desktop/Round.NET.AvaloniaApp.MQTTMangeView/Round.NET.AvaloniaApp.MQTTMangeView/Views/Windows/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
