@@ -1,0 +1,23 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:HeroIconsAvalonia.Controls;assembly=HeroIconsAvalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.Main.ViewPage">
+    <Grid>
+        <Label FontSize="18" FontWeight="Bold" Margin="10">可视化页面</Label>
+        <Button Width="32" Height="32" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10">
+            <Button.Flyout>
+                <MenuFlyout>
+                    <MenuItem Header="图片框" Tag="Image" Click="AddControl_OnClick"></MenuItem>
+                    <MenuItem Header="按钮" Tag="Button" Click="AddControl_OnClick"></MenuItem>
+                    <MenuItem Header="标签" Tag="Label" Click="AddControl_OnClick"></MenuItem>
+                </MenuFlyout>
+            </Button.Flyout>
+            <controls:HeroIcon Foreground="White" Type="Plus" Min="True" Width="15"/>
+        </Button>
+        <Label HorizontalAlignment="Right" VerticalAlignment="Top" Margin="45,13" Foreground="Gray">右键单击控件编辑属性，左键拖拽控件</Label>
+        <Grid Margin="10,50,10,10" Name="MainView"></Grid>
+    </Grid>
+</UserControl>

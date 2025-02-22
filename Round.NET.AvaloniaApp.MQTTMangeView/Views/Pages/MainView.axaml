@@ -1,0 +1,73 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:con="clr-namespace:FluentAvalonia.UI.Controls;assembly=FluentAvalonia"
+             xmlns:controls="clr-namespace:HeroIconsAvalonia.Controls;assembly=HeroIconsAvalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Round.NET.AvaloniaApp.MQTTMangeView.Views.MainView">
+    <Grid>
+        <Image Source="../../Assets/RMV.png" Margin="10" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top"></Image>
+        <Label Margin="35,7" FontWeight="UltraLight">MQTT Mange</Label>
+        <Menu HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="125,0,0,0">
+            <MenuItem Header="文件">
+                <MenuItem Header="打开" Name="Open" Click="Open_OnClick"></MenuItem>
+                <MenuItem Header="-"></MenuItem>
+                <MenuItem Header="保存" Name="Save" Click="Save_OnClick"></MenuItem>
+                <!--<MenuItem Header="另存为..."></MenuItem>-->
+                <MenuItem Header="-"></MenuItem>
+                <MenuItem Header="退出"></MenuItem>
+            </MenuItem> <!--文件-->
+            <MenuItem Header="编辑" IsVisible="False">
+                <MenuItem Header="锁定视图"></MenuItem>
+            </MenuItem> <!--编辑-->
+            <MenuItem Header="服务器">
+                <MenuItem Header="启动 MQTT 服务器"></MenuItem>
+            </MenuItem>
+        </Menu> <!--菜单项-->
+        <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="140,0">
+            <Button Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" Margin="5">
+                <controls:HeroIcon Foreground="White" Type="Cog6Tooth" Min="True" Width="16" Margin="-8,-9" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </Button>
+        </DockPanel>
+        <con:NavigationView
+            Margin="0,40,0,0"
+            IsSettingsVisible="False"
+            IsPaneOpen="True"
+            IsPaneToggleButtonVisible="False"
+            OpenPaneLength="130"
+            IsTabStop="False"
+            PaneDisplayMode="Left"
+            SelectionFollowsFocus="False"
+            SelectionChanged="NavigationView_OnSelectionChanged">
+            <con:NavigationView.MenuItems>
+                <con:NavigationViewItem IsSelected="True" Tag="View">
+                    <DockPanel>
+                        <controls:HeroIcon Foreground="White" Type="PaperAirplane" Width="15"></controls:HeroIcon>
+                        <Label Margin="10,0">面板</Label>
+                    </DockPanel>
+                </con:NavigationViewItem>
+                <con:NavigationViewItem Tag="Mange">
+                    <DockPanel>
+                        <controls:HeroIcon Foreground="White" Type="Newspaper" Width="15"></controls:HeroIcon>
+                        <Label Margin="10,0">管理</Label>
+                    </DockPanel>
+                </con:NavigationViewItem>
+            </con:NavigationView.MenuItems>
+            <con:NavigationView.FooterMenuItems>
+                <con:NavigationViewItem Tag="Log">
+                    <DockPanel>
+                        <controls:HeroIcon Foreground="White" Type="CommandLine" Width="15"></controls:HeroIcon>
+                        <Label Margin="10,0">日志</Label>
+                    </DockPanel>
+                </con:NavigationViewItem>
+                <con:NavigationViewItem Tag="Setting">
+                    <DockPanel>
+                        <controls:HeroIcon Foreground="White" Type="Cog6Tooth" Width="15"></controls:HeroIcon>
+                        <Label Margin="10,0">设置</Label>
+                    </DockPanel>
+                </con:NavigationViewItem>
+            </con:NavigationView.FooterMenuItems>
+        </con:NavigationView>
+    </Grid>
+</UserControl>

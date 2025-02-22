@@ -1,0 +1,34 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:project="clr-namespace:Round.NET.AvaloniaApp.MQTTMangeView.Modules.Project"
+             mc:Ignorable="d" Width="320"
+             Padding="5"
+             x:Class="Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.AddControls.AddButton">
+    <Grid>
+        <StackPanel>
+            <DockPanel Margin="5">
+                <Label VerticalAlignment="Center" Width="90">发送主题：</Label>  
+                <ComboBox HorizontalAlignment="Stretch" Name="TopicSelBox"></ComboBox>
+            </DockPanel>
+            <DockPanel Margin="5">
+                <Label VerticalAlignment="Center" Width="90">发送信息：</Label>
+                <TextBox HorizontalAlignment="Stretch" Watermark="键入按钮点击发送的信息..." Name="ClickMessage">Button Click</TextBox>
+            </DockPanel>
+            <ProgressBar Margin="5"></ProgressBar>
+            <DockPanel Margin="5">
+                <Label VerticalAlignment="Center" Width="90">宽：</Label>  
+                <NumericUpDown HorizontalAlignment="Stretch" Watermark="宽度" Value="120" Name="WidthBox"/>
+            </DockPanel>
+            <DockPanel Margin="5">
+                <Label VerticalAlignment="Center" Width="90">高：</Label>  
+                <NumericUpDown HorizontalAlignment="Stretch" Watermark="高度" Value="50" Name="HeightBox"/>
+            </DockPanel>
+            <DockPanel Margin="5">
+                <Label VerticalAlignment="Center" Width="90">文本：</Label>  
+                <TextBox HorizontalAlignment="Stretch" Watermark="显示文本" Name="ShowText">Button</TextBox>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

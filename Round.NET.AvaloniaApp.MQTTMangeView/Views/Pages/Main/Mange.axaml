@@ -1,0 +1,21 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.Main.Mange">
+    <Grid>
+        <Label FontSize="18" FontWeight="Bold" Margin="10">主题管理</Label>
+        <Grid HorizontalAlignment="Right" VerticalAlignment="Top" Height="32" Margin="10">
+            <TextBox Name="TopicBody" Margin="60,0" Width="120" HorizontalAlignment="Right" Watermark="主题路径"></TextBox>
+            <TextBox Name="TopicHead" Margin="210,0" Width="120" HorizontalAlignment="Right" Watermark="主题头">topic</TextBox>
+            <Label Margin="188,0" HorizontalAlignment="Right" VerticalContentAlignment="Center">/</Label>
+            <Button Name="AddTopic" Click="AddTopic_OnClick" HorizontalAlignment="Right">添加</Button>
+        </Grid>
+        <ScrollViewer Margin="0,40,0,0">
+            <StackPanel Margin="10" Name="TopicListBox">
+                
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
