@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Avalonia;
+using Avalonia.Collections;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Layout;
@@ -19,15 +20,22 @@ public partial class ViewPage : UserControl
     {
         InitializeComponent();
         Core.MainGrid = this.MainView;
-
         Task.Run(() =>
         {
             var con = 0;
             while (true)
             {
+                Dispatcher.UIThread.Invoke(() =>
+                {
+                    if (EditModel.IsChecked != Project.NowProject.EditMode)
+                    {
+                        EditModel.IsChecked = Project.NowProject.EditMode;
+                    }
+                });
                 if (con != Project.NowProject.Controls.Count)
                 {
                     con = Project.NowProject.Controls.Count;
+                    ImageMange.Images.Clear();
 
                     Dispatcher.UIThread.Invoke(() =>
                     {
@@ -47,5 +55,11 @@ public partial class ViewPage : UserControl
     {
         var tag = (sender as Control)?.Tag as string;
         ControlMange.AddControl(tag);
+    }
+
+    private void EditModel_OnClick(object? sender, RoutedEventArgs e)
+    {
+        var ob = (sender as CheckBox);
+        Project.NowProject.EditMode = (bool)ob.IsChecked;
     }
 }

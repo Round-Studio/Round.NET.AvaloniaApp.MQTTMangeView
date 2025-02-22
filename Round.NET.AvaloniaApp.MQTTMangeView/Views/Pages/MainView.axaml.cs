@@ -1,12 +1,18 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
+using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Media;
+using Avalonia.Threading;
 using FluentAvalonia.UI.Controls;
 using FluentAvalonia.UI.Windowing;
+using MQTTnet.Server;
 using Round.NET.AvaloniaApp.MQTTMangeView.Modules;
 using Round.NET.AvaloniaApp.MQTTMangeView.Modules.Project;
+using Round.NET.AvaloniaApp.MQTTMangeView.Modules.Server;
 using Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.Main;
 
 namespace Round.NET.AvaloniaApp.MQTTMangeView.Views;
@@ -16,11 +22,28 @@ public partial class MainView : UserControl
     public MainView()
     {
         InitializeComponent();
+
+        Task.Run(() =>
+        {
+            while (true)
+            {
+                if (MQTTServer.IsRunning)
+                {
+                    Dispatcher.UIThread.Invoke(()=>ServerStatus.Background = Brushes.Green);
+                }
+                else
+                {
+                    Dispatcher.UIThread.Invoke(()=>ServerStatus.Background = Brushes.Red);
+                }
+                Thread.Sleep(200);
+            }
+        });
     }
     public Mange Mange = new();
     public Setting Setting = new();
     public ViewPage ViewPage = new();
     public Log Log = new();
+    public DataPage DataPage = new();
     private void NavigationView_OnSelectionChanged(object? sender, NavigationViewSelectionChangedEventArgs e)
     {
         var nav = sender as NavigationView;
@@ -39,6 +62,9 @@ public partial class MainView : UserControl
                 break;
             case "Log":
                 nav.Content = Log;
+                break;
+            case "Data":
+                nav.Content = DataPage;
                 break;
         }
     }
@@ -84,6 +110,21 @@ public partial class MainView : UserControl
             {
                 Project.OpenProject(filePaths[0]);
             }
+        }
+    }
+
+    private void LaunchServerButton_OnClick(object? sender, RoutedEventArgs e)
+    {
+        if (!MQTTServer.IsRunning)
+        {
+            Core.LogPage.LogPanel.Children.Clear();
+            MQTTServer.Start();
+            LaunchServerButton.Header = "关闭 MQTT 服务器";
+        }
+        else
+        {
+            MQTTServer.Stop();
+            LaunchServerButton.Header = "启动 MQTT 服务器";
         }
     }
 }

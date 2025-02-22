@@ -17,7 +17,8 @@
             </Button.Flyout>
             <controls:HeroIcon Foreground="White" Type="Plus" Min="True" Width="15"/>
         </Button>
-        <Label HorizontalAlignment="Right" VerticalAlignment="Top" Margin="45,13" Foreground="Gray">右键单击控件编辑属性，左键拖拽控件</Label>
-        <Grid Margin="10,50,10,10" Name="MainView"></Grid>
+        <Label HorizontalAlignment="Right" VerticalAlignment="Top" Margin="145,13" Foreground="Gray">编辑模式下，左键编辑属性，右键拖拽控件</Label>
+        <CheckBox Name="EditModel" Click="EditModel_OnClick" IsChecked="True" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="45,11">编辑模式</CheckBox>
+        <Grid Margin="10,50,10,10" Name="MainView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Grid>
     </Grid>
 </UserControl>

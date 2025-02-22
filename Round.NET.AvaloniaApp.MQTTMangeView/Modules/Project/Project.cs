@@ -1,6 +1,8 @@
 ﻿using System.IO;
 using System.Text.Json;
 using System.Text.RegularExpressions;
+using Avalonia.Controls;
+using Avalonia.Platform;
 using Round.NET.AvaloniaApp.MQTTMangeView.Modules.Entry;
 
 namespace Round.NET.AvaloniaApp.MQTTMangeView.Modules.Project;
@@ -11,7 +13,16 @@ public class Project
 
     public static void OpenProject(string projectName)
     {
+        NowProject.Controls.Clear();
+        NowProject.Topics.Clear();
         NowProject = JsonSerializer.Deserialize<ProjectEntry>(File.ReadAllText(projectName));
+
+        try
+        {
+            Core.AppWindow.Width = NowProject.WinWidth;
+            Core.AppWindow.Height = NowProject.WinHeight;
+            Core.AppWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+        }catch{}
     }
 
     public static void SaveProject()

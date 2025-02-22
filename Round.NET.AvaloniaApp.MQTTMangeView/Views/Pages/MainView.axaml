@@ -21,12 +21,17 @@
             <MenuItem Header="编辑" IsVisible="False">
                 <MenuItem Header="锁定视图"></MenuItem>
             </MenuItem> <!--编辑-->
-            <MenuItem Header="服务器">
-                <MenuItem Header="启动 MQTT 服务器"></MenuItem>
-            </MenuItem>
         </Menu> <!--菜单项-->
-        <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="140,0">
-            <Button Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" Margin="5">
+        <DockPanel HorizontalAlignment="Right" VerticalAlignment="Top" Margin="145,0">
+            <Button Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" Margin="2.5,5">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuItem Header="启动 MQTT 服务器" Name="LaunchServerButton" Click="LaunchServerButton_OnClick"></MenuItem>
+                    </MenuFlyout>
+                </Button.Flyout>
+                <Border Margin="0" Background="Red" Width="15" Height="15" CornerRadius="20" VerticalAlignment="Center" HorizontalAlignment="Center" Name="ServerStatus"></Border>
+            </Button>
+            <Button Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" Margin="2.5,5">
                 <controls:HeroIcon Foreground="White" Type="Cog6Tooth" Min="True" Width="16" Margin="-8,-9" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             </Button>
         </DockPanel>
@@ -45,6 +50,12 @@
                     <DockPanel>
                         <controls:HeroIcon Foreground="White" Type="PaperAirplane" Width="15"></controls:HeroIcon>
                         <Label Margin="10,0">面板</Label>
+                    </DockPanel>
+                </con:NavigationViewItem>
+                <con:NavigationViewItem Tag="Data">
+                    <DockPanel>
+                        <controls:HeroIcon Foreground="White" Type="Swatch" Width="15"></controls:HeroIcon>
+                        <Label Margin="10,0">数据</Label>
                     </DockPanel>
                 </con:NavigationViewItem>
                 <con:NavigationViewItem Tag="Mange">

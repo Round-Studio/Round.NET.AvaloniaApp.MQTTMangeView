@@ -3,11 +3,11 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Round.NET.AvaloniaApp.MQTTMangeView.Modules.Project;
 
-namespace Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.AddControls;
+namespace Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.AddData;
 
-public partial class AddImage : UserControl
+public partial class AddData : UserControl
 {
-    public AddImage()
+    public AddData()
     {
         InitializeComponent();
         if (Project.NowProject.Topics.Count == 0)

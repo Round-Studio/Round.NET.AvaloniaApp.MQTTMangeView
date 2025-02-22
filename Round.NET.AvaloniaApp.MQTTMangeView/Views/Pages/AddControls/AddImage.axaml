@@ -4,5 +4,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="Round.NET.AvaloniaApp.MQTTMangeView.Views.Pages.AddControls.AddImage">
-    Welcome to Avalonia!
+    <StackPanel>
+        <DockPanel Margin="5">
+            <Label VerticalAlignment="Center" Width="90">图片主题：</Label>  
+            <ComboBox HorizontalAlignment="Stretch" Name="TopicSelBox"></ComboBox>
+        </DockPanel>
+        <ProgressBar Margin="5"></ProgressBar>
+        <DockPanel Margin="5">
+            <Label VerticalAlignment="Center" Width="90">宽：</Label>  
+            <NumericUpDown HorizontalAlignment="Stretch" Watermark="宽度" Value="120" Name="WidthBox"/>
+        </DockPanel>
+        <DockPanel Margin="5">
+            <Label VerticalAlignment="Center" Width="90">高：</Label>  
+            <NumericUpDown HorizontalAlignment="Stretch" Watermark="高度" Value="50" Name="HeightBox"/>
+        </DockPanel>
+    </StackPanel>
 </UserControl>
